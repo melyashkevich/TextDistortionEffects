@@ -58,7 +58,7 @@
     
     const createBlotterText = () => {
         const text = new Blotter.Text(textEl.innerHTML, {
-            family : "'Playfair Display',serif",
+            family : "'shtudioregular',serif",
             weight: 900,
             size : 200,
             paddingLeft: 100,
@@ -100,12 +100,7 @@
         requestAnimationFrame(render);
     };
 
-    WebFont.load({
-        google: {
-            families: ['Playfair+Display:900']
-        },
-        active: () => createBlotterText()
-    });
+    window.onload = createBlotterText;     
 
     // Preload all the images in the page.
     imagesLoaded(document.querySelectorAll('.content__img'), {background: true}, () => body.classList.remove('loading'));

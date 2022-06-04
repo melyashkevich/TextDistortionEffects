@@ -5,6 +5,15 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'shtudioregular';
+    src: url('../fonts/shtudio-webfont.woff2') format('woff2'),
+         url('../fontsshtudio-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 :root {
 	font-size: 16px;
 }
