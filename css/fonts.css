@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'shtudioregular';
+    src: url('../fonts/Shtudio.woff') format('woff2'),
+         url('../fonts/Shtudio.woff') format('woff'),
+		 url("../fonts/Shtudio.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -100,7 +100,13 @@
         requestAnimationFrame(render);
     };
 
-    window.onload = createBlotterText;     
+    WebFont.load({
+        custom: {
+            families: ['shtudioregular'],
+            urls: ['./css/fonts.css']
+        },
+        active: () => createBlotterText()
+    });
 
     // Preload all the images in the page.
     imagesLoaded(document.querySelectorAll('.content__img'), {background: true}, () => body.classList.remove('loading'));
