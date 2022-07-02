@@ -65,7 +65,7 @@
             paddingRight: 100,
             paddingTop: 100,
             paddingBottom: 100,
-            fill : 'white'
+            fill : 'gray'
         });
         elem.removeChild(textEl);
     
